@@ -201,11 +201,11 @@ section .title::after{
 
 .services{
   color:#fff;
-  background-image: url('/images/darktheme.jpg');
+  background-image: url('./images/darktheme.jpg');
 }
 .teams{
   color: white;
-  background-image: url(/images/dark2.jpg);
+  background-image: url('./images/dark2.jpg');
 }
 .services .title::before,
 .teams .title::before{
@@ -253,7 +253,7 @@ section .title::after{
 /* homepage css */
 .home{
   height: 100vh;
-  background: url(/images/bg1.jpg) no-repeat;
+  background: url('./images/bg1.jpg') no-repeat;
   background-size:cover;
   position:relative;
   font-family: 'Ubuntu', sans-serif;
@@ -352,13 +352,13 @@ font-family: 'Great Vibes', cursive;
   background: none;
 }
 .about{
-  background-image: url('/images/lg2.jpg');
+  background-image: url('./images/lg2.jpg');
 }
 
 
 /* skills section styling */
 .skills{
-  background: url(/images/lit.jpg) no-repeat center;
+  background: url('./images/lit.jpg') no-repeat center;
   background-size: 100%;
 
 }
