@@ -156,6 +156,10 @@ section .title::after{
   color:#fff;
   background-image: url('./images/darktheme.jpg');
 }
+.coding{
+  color:#fff;
+  background-image: url('./images/coding.jpg');
+}
 .teams{
   color: white;
   background-image: url('./images/dark2.jpg');
@@ -202,6 +206,106 @@ section .title::after{
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
+
+/* coding-platform */
+ .coding{
+  font-family: 'Poppins', sans-serif;
+}
+
+.coding .serv-content
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coding .title::before,
+.teams .title::before{
+  background: #fff;
+}
+.coding .title::after,
+.teams .title::after{
+  background: rgb(247, 242, 242);
+  content: "my Profile";
+}
+.coding .serv-content .card{
+  width: calc(25% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.coding .serv-content .card img{
+  height: 150px;
+  width: 150px;
+}
+.coding .serv-content .card img:hover{
+  height: 180px;
+  width: 180px;
+}
+.coding .serv-content .card:hover{
+  background: linear-gradient(to right, #0f2b9a, rgb(231, 231, 231));
+  box-shadow: 10px 10px 10px rgb(103, 97, 97);
+  color: black;
+
+}
+.coding .serv-content .card .box{
+  transition: all 0.3s ease;
+}
+.coding .serv-content .card:hover .box{
+  transform: scale(1.05);
+}
+.coding .serv-content .card i{
+  font-size: 50px;
+  color: crimson;
+  transition: color 0.3s ease;
+}
+.coding .serv-content .card:hover i{
+  color: #fff;
+}
+.coding .serv-content .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+#coding-link  {
+    display: inline-block;
+    background: linear-gradient(to right, #e03009, rgb(194, 246, 9));
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+  }
+  #coding-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  }
+
+
+@media (max-width: 947px){
+  .coding .serv-content .card {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 690px){
+  .coding .serv-content .card {
+    width: 100%;
+}
+
+}
+
 
 /* homepage css */
 .home{
